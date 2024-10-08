@@ -1,8 +1,6 @@
 const grid = document.querySelector('.container');
 const btnSize = document.getElementById('btn');
 
-let currentColor = 'red';
-let computeSize = 0;
 function makeGrid(rows, cols) {
 
     grid.style.setProperty('--cols', cols);
