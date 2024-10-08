@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 50%;
+    border: 0.115rem solid black;
+    height: 80vh;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: lightcoral;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+}
+
+.flex-item {
+    flex: 0 0 calc(100% / var(--cols));
+}
+
+.flex-item:hover {
+    background-color: red;
+    transition: background-color ease;
+}
